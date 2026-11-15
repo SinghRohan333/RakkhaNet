@@ -62,7 +62,7 @@ export default function HomePage() {
           </div>
         </div>
         <svg
-          className="absolute inset-x-0 bottom-0 text-accent/20"
+          className="pointer-events-none absolute inset-x-0 bottom-0 text-accent/20"
           viewBox="0 0 400 60"
           preserveAspectRatio="none"
           aria-hidden="true"

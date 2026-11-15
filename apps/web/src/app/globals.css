@@ -143,3 +143,8 @@
   --toastify-text-color-light: var(--foreground);
   --toastify-font-family: inherit;
 }
+
+/* Keep Leaflet z-index inside map. Stop it cover menu and header. */
+.leaflet-container {
+  isolation: isolate;
+}
